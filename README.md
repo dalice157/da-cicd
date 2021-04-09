@@ -1,4 +1,4 @@
-# da-cicd
+# da-cicd ([![Build Status](https://travis-ci.com/dalice157/da-cicd.svg?branch=main)](https://travis-ci.com/dalice157/da-cicd))
 
 - [travis-ci 文件](https://docs.travis-ci.com/)
 - [ci pages](https://docs.travis-ci.com/user/deployment/pages/)
@@ -13,6 +13,3 @@ deploy:
   on:
     branch: main
 ```
-
-
-[![Build Status](https://travis-ci.com/dalice157/da-cicd.svg?branch=main)](https://travis-ci.com/dalice157/da-cicd)
