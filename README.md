@@ -1,9 +1,10 @@
 # da-cicd
 
 - [travis-ci 文件](https://docs.travis-ci.com/)
-[ci pages](https://docs.travis-ci.com/user/deployment/pages/)
+- [ci pages](https://docs.travis-ci.com/user/deployment/pages/)
 
-可以部署到gitHubPage gitHub Releases
+## 可以部署到 gitHubPage gitHub Releases
+```
 deploy:
   provider: pages
   skip_cleanup: true
@@ -11,3 +12,7 @@ deploy:
   keep_history: true
   on:
     branch: main
+```
+
+
+[![Build Status](https://travis-ci.com/dalice157/da-cicd.svg?branch=main)](https://travis-ci.com/dalice157/da-cicd)
