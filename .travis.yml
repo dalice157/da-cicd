@@ -9,4 +9,4 @@ branches:
 install:
   - npm install
 script:
-  - npm run start
+  - npm run test
