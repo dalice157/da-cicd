@@ -6,6 +6,13 @@ cache:
 branches:
   only:
     - main
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN_2 # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: main
 install:
   - npm install
 script:
