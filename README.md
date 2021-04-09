@@ -1,6 +1,6 @@
 # da-cicd
 
-[travis-ci 文件](https://docs.travis-ci.com/)
+- [travis-ci 文件](https://docs.travis-ci.com/)
 [ci pages](https://docs.travis-ci.com/user/deployment/pages/)
 
 可以部署到gitHubPage gitHub Releases
