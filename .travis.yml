@@ -6,3 +6,7 @@ cache:
 branches:
   only:
     - main
+install:
+  - npm install
+script:
+  - npm run start
